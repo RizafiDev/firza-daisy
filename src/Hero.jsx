@@ -2,6 +2,9 @@ import "./index.css";
 import "./assets/vector.png";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import aku from "./assets/aku-green.jpg";
+import bgGradient from "./assets/bg-gradient.jpg";
+import astronot from "./assets/vector.png";
 
 const Example = ({ args_if_necessary }) => {
   const typeTarget = useRef(null);
@@ -27,13 +30,13 @@ const Example = ({ args_if_necessary }) => {
 function Hero() {
   return (
     <div
-      className="hero container mx-auto bg-transparent min-h-screen text-[#212427]"
+      className="hero container mx-auto  min-h-screen text-[#212427] pt-24 relative"
       id="home"
     >
-      <div className="hero-content  flex-col lg:flex-row-reverse justify-between gap-64">
+      <div className="hero-content min-w-full flex-col lg:flex-row-reverse justify-between px-20">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-          className="min-w-sm rounded-lg shadow-2xl flex w-96"
+          src={aku}
+          className="min-w-sm rounded-full shadow-2xl flex w-96 "
         />
         <div className="w-full">
           <h1 className="text-5xl font-bold">
@@ -46,13 +49,22 @@ function Hero() {
             Keseharian saya ialah membuat barisan kode.
           </p>
           <div className="btn-nav inline-flex gap-4 items-center">
-            <button className="btn btn-primary text-[#fafafa] ">Hire Me</button>
+            <button className="btn bg-sky-500 border-none text-[#fafafa] ">
+              Hire Me
+            </button>
             <a className="text-[#212427] font-semibold" href="">
               Download CV <i class="ri-arrow-right-line"></i>
             </a>
           </div>
         </div>
       </div>
+
+      {/* astronor */}
+      <img
+        src={astronot}
+        alt=""
+        className="w-48 transform -scale-x-100 absolute -bottom-14 -left-0"
+      />
     </div>
   );
 }

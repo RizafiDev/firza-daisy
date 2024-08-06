@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 function Profile() {
   return (
     <div
-      className="container flex min-h-screen w-full place-items-center text-[#212427] p-10"
+      className="container mx-auto flex min-h-screen w-full place-items-center text-[#212427] p-10"
       id="profile"
     >
       <div className="border-2 border-[#212427] p-6 bg-[#fafafa] rounded-lg flex flex-col h-[70vh]">
