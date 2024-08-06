@@ -26,8 +26,11 @@ const Example = ({ args_if_necessary }) => {
 };
 function Hero() {
   return (
-    <div className="hero bg-transparent min-h-screen text-[#212427]" id="home">
-      <div className="hero-content flex-col lg:flex-row-reverse justify-between gap-64">
+    <div
+      className="hero container mx-auto bg-transparent min-h-screen text-[#212427]"
+      id="home"
+    >
+      <div className="hero-content  flex-col lg:flex-row-reverse justify-between gap-64">
         <img
           src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
           className="min-w-sm rounded-lg shadow-2xl flex w-96"
