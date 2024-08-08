@@ -11,12 +11,11 @@ const Example = ({ args_if_necessary }) => {
 
   useEffect(() => {
     const typed = new Typed(typeTarget.current, {
-      strings: ["Firmansyah Riza", "Fullstack Developer"],
+      strings: ["Firmansyah Riza", "A Fullstack Developer"],
 
       typeSpeed: 50,
       backDelay: 1000,
       backSpeed: 40,
-      startDelay: 700,
       loop: true,
     });
 
@@ -33,7 +32,7 @@ function Hero() {
       className="hero container mx-auto  min-h-screen text-[#212427] pt-24 relative"
       id="home"
     >
-      <div className="hero-content min-w-full flex-col lg:flex-row-reverse justify-between px-20">
+      <div className="hero-content min-w-full flex-col lg:flex-row-reverse justify-between ">
         <img
           src={aku}
           className="min-w-sm rounded-full shadow-2xl flex w-96 "
@@ -63,7 +62,7 @@ function Hero() {
       <img
         src={astronot}
         alt=""
-        className="w-48 transform -scale-x-100 absolute -bottom-14 -left-0"
+        className="w-48 transform -scale-x-100 absolute bottom-0 mb-16 left-0 hidden"
       />
     </div>
   );

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/jpg" href="/src/assets/aku-green.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>RizafiDev</title>
@@ -26,6 +26,27 @@
       * {
         font-family: "Poppins", sans-serif;
         scroll-behavior: smooth;
+      }
+      /* ===== Scrollbar CSS ===== */
+      /* Firefox */
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #cfcfcf #ffffff;
+      }
+
+      /* Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 1px;
+      }
+
+      *::-webkit-scrollbar-track {
+        background: #ffffff;
+      }
+
+      *::-webkit-scrollbar-thumb {
+        background-color: #cfcfcf;
+        border-radius: 50px;
+        border: 0px inset #ffffff;
       }
     </style>
   </head>

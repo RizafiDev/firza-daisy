@@ -53,7 +53,7 @@ function Navbar() {
             <a href="#project">Project</a>
           </li>
           <li>
-            <a href="">Skills</a>
+            <a href="#skill">Skills</a>
           </li>
           <li>
             <a href="">Contact</a>
